@@ -13,7 +13,7 @@ resource "random_id" "id" {
     trigger = var.subject
   }
 
-  byte_length = 4
+  byte_length = 6
 }
 
 output "hello_world" {
